@@ -93,8 +93,14 @@ body {
 
 p {
     color: #ffe5b4;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
     /* come back here to break the lines between p */
 }
+
+/* p li {
+    display: block;
+} */
 
 #lists {
     color: #93caed;
@@ -106,6 +112,27 @@ p {
     border: 5px solid #fafafa;
 }
 
+.about ul {
+    margin-left: 21%;
+    /* display: inline; */
+}
+
+.about li {
+    display: inline;
+}
+
+.work a, .contact a {
+    text-decoration: none;
+    color: #93caed;
+    line-height: 2.0;
+}
+
+.work a:hover, .contact a:hover {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 /* .work, .contact {
     margin-bottom: 20px;
     padding: 50px;
@@ -113,15 +140,25 @@ p {
     border: 5px solid #fafafa;
 } */
 
-.about img, .work img, .contact img {
+
+.about img {
     max-height: 375px;
     max-width: 375px;
     display: block;
 }
 
+.work img, .contact img {
+    max-height: 25%;
+    max-width: 25%;
+    display: block;
+}
+
+
+
 .about h2, .work h2, .contact h2 {
     margin-bottom: 20px;
 }
+
 
 
 .footer {
