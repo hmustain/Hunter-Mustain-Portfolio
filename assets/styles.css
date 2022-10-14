@@ -19,8 +19,8 @@ body {
 }
 
 .header h1 {
-    color: #fafafa;
-    font-weight: 700;
+    color: #93caed;
+    font-weight: 300;
     font-size: 175%
 }
 
@@ -61,24 +61,21 @@ body {
 .float-left {
     float: left;
     margin-right: 25px;
+    border: 5px spotted #fafafa;
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
+    border: 5px dotted #fafafa;
 }
 
 .content {
-    width: 75%;
+    width: 90%;
     display: inline-block;
-    margin-left: 20px;
-    padding: 3%;
-}
-
-.content img {
-    display: block;
-    max-width: 500px;
-    max-height: 500px;
+    margin: 2%;
+    padding: 5%;
+    border: 5px dashed #fafafa;
 }
 
 
@@ -103,6 +100,29 @@ p {
     color: #93caed;
 }
 
+.about, .work, .contact {
+    margin: 2%;
+    padding: 5%;
+    border: 5px solid #fafafa;
+}
+
+/* .work, .contact {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    border: 5px solid #fafafa;
+} */
+
+.about img, .work img, .contact img {
+    max-height: 375px;
+    max-width: 375px;
+    display: block;
+}
+
+.about h2, .work h2, .contact h2 {
+    margin-bottom: 20px;
+}
+
 
 .footer {
     padding: 30px;
@@ -112,4 +132,8 @@ p {
 .footer h4 {
     font-size: 100%;
     color: #93caed;
+}
+
+.footer span {
+    color: #ffe5b4;
 }
