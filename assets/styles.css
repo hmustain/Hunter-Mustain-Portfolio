@@ -49,10 +49,6 @@ body {
     color: #ffe5b4;
 }
 
-p {
-    color: #fafafa;
-}
-
 .code {
     height:400px;
     width: 100%;
@@ -60,4 +56,53 @@ p {
     background-image: url(./images/web-dev.webp);
     background-size: cover;
     background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.titles {
+    color: #93caed;
+    font-size: 150%;
+    font-weight: 300;
+}
+
+.titles span {
+    color: #ffe5b4;
+}
+
+
+
+p {
+    color: #ffe5b4;
+    /* come back here to break the lines between p */
+}
+
+#lists {
+    color: #93caed;
+}
+
+
+.footer {
+    padding: 30px;
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 100%;
+    color: #93caed;
 }
