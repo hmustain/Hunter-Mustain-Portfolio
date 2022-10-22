@@ -32,6 +32,15 @@
     align-items: center;
 }
 
+.header nav a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
 .header nav ul {
     list-style-type: none;
 }
