@@ -84,7 +84,7 @@ main {
     flex-basis: 65%;
 }
 
-.about-2 h1 {
+.about-2 h2 {
     font-size: 150%;
     font-weight: bold;
     padding-bottom: 5px;
@@ -105,26 +105,51 @@ main {
 }
 
 .content h2 {
-    border: var(--border)
+    border: var(--border);
+    font-size: 150%;
+    font-weight: bold;
+    padding: 10px;
 }
 
 .content p {
     border: var(--border)
 }
 
-.content {
+.contact {
     display: flex;
+    flex-wrap: wrap;
     margin: 5%;
     padding: 2%;
-    border: var(--border)
+    border-bottom: var(--border-grey);
+    border-top: var(--border-grey);
+    flex-direction: row;
+    justify-content: center;
 }
 
-.content h2 {
-    border: var(--border)
+.contact h2 {
+    font-size: 150%;
+    font-weight: bold;
+    padding: 10px;
 }
 
-.content p {
-    border: var(--border)
+
+.contact ul li {
+    list-style: none;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.contact a:hover {
+    cursor: pointer;
+    color: var(--blue);
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 
