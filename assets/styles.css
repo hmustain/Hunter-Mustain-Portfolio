@@ -66,7 +66,9 @@ main {
 }
 
 #about {
-    padding: 80px 0;
+    /* padding: 80px 0; */
+    margin: 5%;
+    padding: 2%;
     color: var(--black);
     border-bottom: var(--border-grey);
     border-top: var(--border-grey);
@@ -109,15 +111,17 @@ main {
 .work {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     /* flex-direction: column; */
     width: 100%;
     margin: 5%;
     padding: 2%;
-    border: var(--border)
+    border-top: var(--border-grey);
+    border-bottom: var(--border-grey);
 }
 
 .work h2 {
-    border: var(--border);
+    /* border: var(--border); */
     font-size: 150%;
     font-weight: bold;
     padding: 10px;
@@ -126,6 +130,7 @@ main {
 #work-img {
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: space-evenly; */
     gap: 2em;
 }
 
@@ -137,7 +142,9 @@ main {
     justify-content: center; */
     padding: 2px;
     /* flex-grow: 3; */
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    flex-grow: 2;
+    flex-shrink: 2;
     flex-basis: 100%;
 }
 
@@ -155,13 +162,23 @@ main {
     justify-content: center; */
     padding: 2px;
     flex-grow: 1;
+    flex-shrink: 1;
 }
 
 
-.work-card img, .work-card-1 img{
+.work-card img{
     height: 300px;
-    width: 500px;
+    width: 100%;
+    /* border: var(--border); */
     border: var(--border);
+    border-radius: 15px;
+}
+
+.work-card-1 img{
+    height: 500px;
+    width: 100%;
+    border: var(--border);
+    border-radius: 15px;
 }
 
 
