@@ -106,23 +106,65 @@ main {
 
 
 
-.content {
+.work {
     display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    width: 100%;
     margin: 5%;
     padding: 2%;
     border: var(--border)
 }
 
-.content h2 {
+.work h2 {
     border: var(--border);
     font-size: 150%;
     font-weight: bold;
     padding: 10px;
 }
 
-.content p {
-    border: var(--border)
+#work-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
 }
+
+.work-card-1 {
+    /* display: flex; */
+    /* width: 20%; */
+    /* flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+    padding: 2px;
+    /* flex-grow: 3; */
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+
+
+.work-card-1 h3, .work-card h3{
+    text-align: center;
+}
+
+.work-card {
+    /* display: flex; */
+    /* width: 20%; */
+    /* flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+    padding: 2px;
+    flex-grow: 1;
+}
+
+
+.work-card img, .work-card-1 img{
+    height: 300px;
+    width: 500px;
+    border: var(--border);
+}
+
+
 
 .contact {
     display: flex;
