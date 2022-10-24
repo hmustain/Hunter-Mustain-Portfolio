@@ -25,7 +25,6 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
-
 ## Credits
 
 Hunter Mustain  
