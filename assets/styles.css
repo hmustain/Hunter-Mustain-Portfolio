@@ -220,4 +220,16 @@ main {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 500px){
+    .header nav a{ 
+        font-size: 10pt;
 
+    }
+    .header nav  {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+
+}
