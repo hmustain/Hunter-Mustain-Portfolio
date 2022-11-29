@@ -123,11 +123,22 @@ main {
   padding: 10px;
 }
 
+.work a {
+  text-decoration: none;
+}
+
+.work a:hover {
+  cursor: pointer;
+  color: red;
+  text-decoration: underline;
+}
+
 #work-img {
   display: flex;
   flex-wrap: wrap;
   /* justify-content: space-evenly; */
   gap: 2em;
+  width: auto;
 }
 
 .work-card-1 {
@@ -157,8 +168,9 @@ main {
     justify-content: center; */
   padding: 2px;
   flex-grow: 1;
-  flex-shrink: 1;
+  /* flex-shrink: 1; */
 }
+
 
 .work-card img {
   height: 300px;
@@ -168,11 +180,17 @@ main {
   border-radius: 15px;
 }
 
+
 .work-card-1 img {
   height: 500px;
   width: 100%;
   border: var(--border);
   border-radius: 15px;
+}
+
+#horiseon-img {
+  width: 493.14px;
+  height: 300px;
 }
 
 .contact {
